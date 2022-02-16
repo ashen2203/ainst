@@ -1,0 +1,2 @@
+# ainst
+ arch install script
