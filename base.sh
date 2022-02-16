@@ -16,7 +16,7 @@ echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
 
 echo root:1234 | chpasswd
 
-# base packages including grub bootloader and xorg and some fonts 
+# base packages including grub bootloader and some fonts 
 
 pacman -S grub os-prober efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools base-devel linux-headers linux-zen-headers avahi xdg-user-dirs xdg-utils gvfs gvfs-smb cups alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack bash-completion openssh rsync acpi acpi_call virt-manager qemu qemu-arch-extra edk2-ovmf bridge-utils dnsmasq vde2 iptables-nft firewalld flatpak sof-firmware nss-mdns acpid ntfs-3g terminus-font ttf-droid ttf-ubuntu-font-family noto-font-emoji ttf-dejavu noto-fonts ttf-roboto
 
